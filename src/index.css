@@ -8,6 +8,8 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
+     -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox, Safari 18.2+, Chromium 121+ */
     --background: 0 0% 100%;
     --foreground: 215 25% 27%;
 

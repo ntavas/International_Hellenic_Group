@@ -28,10 +28,10 @@ const Videos = () => {
                             />
                         </div>
                         <CardHeader>
-                            <CardTitle>Καθαρισμός Σαλονιού Αυτοκινήτου</CardTitle>
+                            <CardTitle>Ροή Εργασιών Καθαρισμού</CardTitle>
                         </CardHeader>
                         <CardContent>
-                            <p>Δείτε την διαδικασία βιολογικού καθαρισμού σε ένα σαλόνι αυτοκινήτου.</p>
+                            <p>Διαδικασία και τις τεχνικές που χρησιμοποιούμε για την ολοκληρωμένη καθαριότητα όλων των χώρων</p>
                         </CardContent>
                     </Card>
 
@@ -49,10 +49,10 @@ const Videos = () => {
                             />
                         </div>
                         <CardHeader>
-                            <CardTitle>Καθαρισμός Καναπέ</CardTitle>
+                            <CardTitle>Καθαρισμός Εκκλησιών</CardTitle>
                         </CardHeader>
                         <CardContent>
-                            <p>Επαγγελματικός καθαρισμός καναπέ με την μέθοδο ψεκασμού-αναρρόφησης.</p>
+                            <p>Διαδικασία καθαρισμού εκκλησιών απο την εταιρία μας</p>
                         </CardContent>
                     </Card>
                 </div>

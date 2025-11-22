@@ -118,7 +118,7 @@ const Contact = () => {
                                         <FormItem>
                                             <FormLabel>Τηλέφωνο *</FormLabel>
                                             <FormControl>
-                                                <Input placeholder="+30 xxx xxx xxxx" {...field} />
+                                                <Input placeholder="+30 6940839572" {...field} />
                                             </FormControl>
                                             <FormMessage />
                                         </FormItem>
@@ -176,8 +176,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h3 className="font-semibold text-lg mb-2 text-foreground">Τηλέφωνο</h3>
-                                    <p className="text-muted-foreground">+30 xxx xxx xxxx</p>
-                                    <p className="text-muted-foreground">Δευτέρα - Παρασκευή, 9:00 - 18:00</p>
+                                    <p className="text-muted-foreground">+30 6940839572</p>
                                 </div>
                             </div>
                         </Card>
@@ -189,7 +188,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h3 className="font-semibold text-lg mb-2 text-foreground">Email</h3>
-                                    <p className="text-muted-foreground">info@internationalhellenic.gr</p>
+                                    <p className="text-muted-foreground">info@inhg.gr</p>
                                     <p className="text-muted-foreground">Απαντάμε εντός 24 ωρών</p>
                                 </div>
                             </div>
@@ -203,7 +202,7 @@ const Contact = () => {
                                 <div>
                                     <h3 className="font-semibold text-lg mb-2 text-foreground">Τοποθεσία</h3>
                                     <p className="text-muted-foreground">Αθήνα, Ελλάδα</p>
-                                    <p className="text-muted-foreground">Εξυπηρετούμε όλη την Αττική</p>
+                                    <p className="text-muted-foreground">Εξυπηρετούμε όλη την Ελλάδα</p>
                                 </div>
                             </div>
                         </Card>

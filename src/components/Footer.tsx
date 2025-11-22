@@ -15,22 +15,22 @@ const Footer = () => {
                         </p>
                     </div>
 
-                    <div>
-                        <h3 className="font-semibold text-lg mb-4">Επικοινωνία</h3>
-                        <div className="space-y-2 text-gray-300">
-                            <p>+30 xxx xxx xxxx</p>
-                            <p>info@internationalhellenic.gr</p>
-                            <p>Αθήνα, Ελλάδα</p>
-                        </div>
-                    </div>
+                    {/*<div>*/}
+                    {/*    <h3 className="font-semibold text-lg mb-4">Επικοινωνία</h3>*/}
+                    {/*    <div className="space-y-2 text-gray-300">*/}
+                    {/*        <p>+30 6940839572</p>*/}
+                    {/*        <p>info@inhg.gr</p>*/}
+                    {/*        <p>Αθήνα, Ελλάδα</p>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
+                    <div></div>
 
                     <div>
                         <h3 className="font-semibold text-lg mb-4">Πληροφορίες</h3>
                         <div className="space-y-2 text-gray-300">
-                            <p>Ιδρύθηκε: 2014 (Αυστραλία)</p>
-                            <p>Στην Ελλάδα από: 2023</p>
-                            <p>Βιολογικός καθαρισμός με</p>
-                            <p>Αυστραλιανή τεχνολογία</p>
+                            <p>International Hellenic Group ΙΚΕ , Παν. Τσαλδάρη 1 , 105 52 , Αθήνα</p>
+                            <p>+30 6940839572</p>
+                            <p>info@inhg.gr</p>
                         </div>
                     </div>
                 </div>
