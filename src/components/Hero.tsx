@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Sparkles, Droplets } from "lucide-react";
-import heroImage from "@/assets/hero-cleaning.jpg";
+import heroImage from "@/assets/hero-img2.png";
 
 const Hero = () => {
     const scrollToContact = () => {
