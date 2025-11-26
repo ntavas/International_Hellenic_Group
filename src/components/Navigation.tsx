@@ -38,9 +38,8 @@ const Navigation = () => {
     return (
         <>
             <nav
-                className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-                    isScrolled ? "shadow-md" : ""
-                } bg-[#1a2332]`}
+                className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "shadow-md" : ""
+                    } bg-[#1a2332]`}
             >
                 <div className="container mx-auto px-4">
                     <div className="flex items-center justify-between h-20">
@@ -62,6 +61,12 @@ const Navigation = () => {
                                 className="text-white hover:text-gray-300 transition-colors font-medium"
                             >
                                 Βίντεο
+                            </button>
+                            <button
+                                onClick={() => scrollToSection("demonstration")}
+                                className="text-white hover:text-gray-300 transition-colors font-medium"
+                            >
+                                Φωτογραφίες
                             </button>
                             <button
                                 onClick={() => scrollToSection("services")}
@@ -101,9 +106,8 @@ const Navigation = () => {
 
             {/* Mobile Navigation Drawer */}
             <div
-                className={`fixed top-0 right-0 h-full w-64 bg-white shadow-2xl z-40 transform transition-transform duration-300 ease-in-out md:hidden ${
-                    isOpen ? "translate-x-0" : "translate-x-full"
-                }`}
+                className={`fixed top-0 right-0 h-full w-64 bg-white shadow-2xl z-40 transform transition-transform duration-300 ease-in-out md:hidden ${isOpen ? "translate-x-0" : "translate-x-full"
+                    }`}
             >
                 <div className="pt-24 px-6 space-y-6">
                     <button
@@ -117,6 +121,12 @@ const Navigation = () => {
                         className="block w-full text-left py-3 text-foreground hover:text-primary transition-colors font-medium border-b border-border"
                     >
                         Βίντεο
+                    </button>
+                    <button
+                        onClick={() => scrollToSection("demonstration")}
+                        className="block w-full text-left py-3 text-foreground hover:text-primary transition-colors font-medium border-b border-border"
+                    >
+                        Φωτογραφίες
                     </button>
                     <button
                         onClick={() => scrollToSection("services")}
