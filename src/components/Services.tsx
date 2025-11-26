@@ -34,7 +34,7 @@ const services = [
 
 const Services = () => {
     return (
-        <section className="py-20 bg-slate-50">
+        <section id="services" className="py-20 bg-slate-50">
             <div className="container mx-auto px-4">
 
                 <div className="text-center mb-10">
@@ -73,9 +73,9 @@ const Services = () => {
 
                                         {/* Price Section */}
                                         <div className="relative z-10 bg-white pl-4 text-right">
-                      <span className="block font-bold text-emerald-600 text-lg whitespace-nowrap">
-                        {item.price}
-                      </span>
+                                            <span className="block font-bold text-emerald-600 text-lg whitespace-nowrap">
+                                                {item.price}
+                                            </span>
                                         </div>
                                     </div>
 
