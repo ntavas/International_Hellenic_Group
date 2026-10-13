@@ -21,7 +21,7 @@ const services = [
     },
     {
         title: "Στρώμα μονό-διπλό",
-        price: "30,00 - 45,00€",
+        price: "35,00€ - 60,00€",
         unit: "ανά τεμάχιο",
     },
     {
@@ -94,9 +94,12 @@ const Services = () => {
                         </div>
 
                         {/* Footer Note */}
-                        <div className="bg-slate-50 p-4 text-center border-t border-slate-100">
+                        <div className="bg-slate-50 p-4 text-center border-t border-slate-100 space-y-1">
                             <p className="text-xs text-slate-400 font-medium">
                                 *Οι τιμές δεν περιλαμβάνουν Φ.Π.Α.
+                            </p>
+                            <p className="text-xs text-slate-400 font-medium">
+                                Ο τιμοκατάλογος αφορά επαγγελματικούς χώρους. Για κατοικίες δίνεται προσφορά κατόπιν συνεννόησης, με ελάχιστη χρέωση τα 150€.
                             </p>
                         </div>
                     </Card>

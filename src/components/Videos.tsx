@@ -13,7 +13,7 @@ const Videos = () => {
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
                     <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
                         <div className="aspect-video">
                             <iframe
@@ -40,7 +40,7 @@ const Videos = () => {
                             <iframe
                                 width="100%"
                                 height="100%"
-                                src="https://youtu.be/o1VrwcsTuFw"
+                                src="https://www.youtube.com/embed/o1VrwcsTuFw?start=5"
                                 title="Cleaning Services Video 2"
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -53,6 +53,27 @@ const Videos = () => {
                         </CardHeader>
                         <CardContent>
                             <p>Διαδικασία καθαρισμού εκκλησιών απο την εταιρία μας</p>
+                        </CardContent>
+                    </Card>
+
+                    <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                        <div className="aspect-video">
+                            <iframe
+                                width="100%"
+                                height="100%"
+                                src="https://www.youtube.com/embed/gRhwU9PKZzE"
+                                title="Equipment Demonstration"
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                                className="w-full h-full"
+                            />
+                        </div>
+                        <CardHeader>
+                            <CardTitle>Επίδειξη Εξοπλισμού</CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            <p>Στιγμιότυπα από την έκθεση Xenia 2025 με επίδειξη του εξοπλισμού μας</p>
                         </CardContent>
                     </Card>
                 </div>

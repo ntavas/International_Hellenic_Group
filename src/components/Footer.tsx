@@ -2,17 +2,14 @@ import logo from "@/assets/logo.png";
 
 const Footer = () => {
     return (
-        <footer className="bg-[#1a2332] text-white py-12">
+        <footer className="bg-slate-950 text-white py-12">
             <div className="container mx-auto px-4">
                 <div className="grid md:grid-cols-3 gap-8 mb-8">
                     <div>
                         <div className="flex items-center space-x-3 mb-4">
-                            <img src={logo} alt="International Hellenic Logo" className="h-16 w-auto object-contain" />
-                            <span className="font-bold text-lg">International Hellenic</span>
+                            <img src={logo} alt="International Hellenic Group Logo" className="h-24 w-auto object-contain" />
+                            <span className="font-bold text-xl">International Hellenic Group</span>
                         </div>
-                        <p className="text-gray-300 leading-relaxed">
-                            Group Cleaning Services
-                        </p>
                     </div>
 
                     {/*<div>*/}
